@@ -1,0 +1,15 @@
+main{
+    overflow: scroll;
+}
+form{
+    border: 2px solid rgba(107, 107, 107, 0.19);
+    box-shadow:5px 5px 5px 5px rgba(143, 143, 143, 0.59);
+    padding: 10px 10%;
+}
+.dropdown-item{
+    transition-property: all;
+    transition-duration: 500ms;
+}
+.dropdown-item:hover{
+    transform: scale(1.1);
+}
